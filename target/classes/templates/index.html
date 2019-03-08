@@ -2,10 +2,14 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
 <link rel="stylesheet" th:href="@{main.css}">
+<script type="text/javascript" th:src="@{showmsg.js}"></script>
 <meta charset="UTF-8">
 <title>Email System</title>
 </head>
 <body>
 <h1 th:text="${wellcom}"></h1>
+<br>
+
+<button onclick="showMsg()">Show MSG</button>
 </body>
 </html>
